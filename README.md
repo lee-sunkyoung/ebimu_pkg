@@ -8,10 +8,12 @@ ebimu basic ros2_pkg_ebimu9dof + imu_pub publisher
 ### **more info**
 https://www.e2box.co.kr/entry/EBIMU-9DOF-ROS2-Package
 
-### install
+### requires
 ```sh
-pip3 install pyserial
+ros2 run ebimu_pkg imu_pub
+```
 
 ### **to run**
 ```sh
 ros2 run ebimu_pkg imu_pub
+```
